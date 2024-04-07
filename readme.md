@@ -1,4 +1,4 @@
-## Game of Life
+## Conway's Game of Life
 This project implements Conway's Game of Life, a cellular automaton devised by the British mathematician John Horton Conway in 1970. The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
 
 <img alt="Game of Life Animation" height="300" src="gif.gif" width="300"/>
