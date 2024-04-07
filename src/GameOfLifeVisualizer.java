@@ -4,9 +4,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GameOfLifeVisualizer extends JFrame {
-    private static int BOARD_SIZE = 50; // Increased board size
-    private static int CELL_SIZE = 10; // Decreased cell size for better visualization
-    private static int WINDOW_SIZE = BOARD_SIZE * CELL_SIZE; // Size of the window
+    private static int BOARD_SIZE = 50;
+    private static int CELL_SIZE = 10;
+    private static int WINDOW_SIZE = BOARD_SIZE * CELL_SIZE;
 
     private Board gameBoard;
     private JPanel boardPanel;
@@ -44,7 +44,6 @@ public class GameOfLifeVisualizer extends JFrame {
         // Add the board panel to the frame
         add(boardPanel, BorderLayout.CENTER);
 
-        // Start the timer
         startTimer();
     }
 
@@ -81,7 +80,6 @@ public class GameOfLifeVisualizer extends JFrame {
         // Add the board panel to the frame
         add(boardPanel, BorderLayout.CENTER);
 
-        // Start the timer
         startTimer();
     }
 
