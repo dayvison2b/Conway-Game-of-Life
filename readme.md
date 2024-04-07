@@ -11,9 +11,6 @@ The project consists of the following Java classes:
 - **GameOfLifeVisualizer.java**: Provides a graphical user interface for visualizing the Game of Life simulation.
 - **Main.java**: Contains the main method to run the visualizer.
 
-### Usage
-To run the simulation, execute the `Main` class. You can specify the initial state of the board as random or provide a custom initial state. The simulation will continue indefinitely, updating the board according to the rules of the Game of Life.
-
 ### Dependencies
 The project uses Java Swing for the graphical user interface and JUnit for unit testing.
 
